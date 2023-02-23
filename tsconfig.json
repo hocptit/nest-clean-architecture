@@ -1,0 +1,34 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "declaration": true,
+    "removeComments": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
+    "resolveJsonModule": true,
+    "target": "es2017",
+    "sourceMap": true,
+    "skipLibCheck": true,
+    "outDir": "./dist",
+    "baseUrl": "./",
+    "incremental": true,
+    "allowJs": true,
+    "checkJs": true,
+    "strict": true,
+    "paths": {
+      "@api-gateway": ["api-gateway/src"],
+      "@api-gateway/*": ["api-gateway/src/*"],
+      "@common/logger": ["common/logger/src"],
+      "@common/logger/*": ["common/logger/src/*"],
+      "@common/domain-event-publisher": ["common/domain-event-publisher/src"],
+      "@common/domain-event-publisher/*": ["common/domain-event-publisher/src/*"],
+      "@common/prisma": ["common/prisma/src"],
+      "@common/prisma/*": ["common/prisma/src/*"],
+      "@common/utils": ["common/utils"],
+      "@common/utils/*": ["common/utils/*"],
+      "@call-identification": ["call-identification/src"],
+      "@call-identification/*": ["call-identification/src/*"]
+    }
+  }
+}
